@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&family=Roboto+Mono:wght@100&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&family=Roboto+Mono:wght@100&family=Ubuntu&family=Varela+Round&display=swap');
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type:none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.logo img{
+    height: 50px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.container{
+    min-height: 80vh;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 23px auto;
+    padding: 34px;
+    border-radius: 12px;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-position-x: 100px;
+    background-color: black;
+
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    bottom:0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.bottom img{
+    height: 20%;
+    position: absolute;
+    left: 10px;
+}
+
+.icons{
+    margin-top: 14px;
+}
+
+#myProgressBar{
+    width: 100vw;
+}
+
+.songItems{
+    height: 50px;
+    display: flex;
+    width: 40%;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    border: 2px solid;
+    border-color: white;
+    margin: 4px;
+}
+
+.songItems img{
+    height: 100%;
+}
+
+.timestamp{
+    margin: 0 12px;
+}
+
+#gif{
+    opacity: 0;
+    transition: 0.5s ease-in;
+}
